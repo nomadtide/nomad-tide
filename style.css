@@ -1,1 +1,45 @@
-Placeholder for style.css
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #1e2f2f;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+.hero {
+  background: url('images/hero.jpg') center/cover no-repeat;
+  color: white;
+  padding: 6em 2em;
+  text-align: center;
+  font-size: 2em;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+.product {
+  max-width: 200px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #1e2f2f;
+  color: white;
+}
